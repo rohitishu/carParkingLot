@@ -30,6 +30,24 @@ can be typed in
 2) It should accept a filename as a parameter at the command prompt and read the
 commands from that file
 
+
+Sample Input
+create_parking_lot 6
+park KA-01-HH-1234 White
+park KA-01-HH-9999 White
+park KA-01-BB-0001 Black
+park KA-01-HH-7777 Red
+park KA-01-HH-2701 Blue
+park KA-01-HH-3141 Black
+leave 4
+status
+park KA-01-P-333 White
+park DL-12-AA-9999 White
+registration_numbers_for_cars_with_colour White
+slot_numbers_for_cars_with_colour White
+slot_number_for_registration_number KA-01-HH-3141
+slot_number_for_registration_number MH-04-AY-1111 
+
 To Use
 
 To clone and run this repository you'll need Node.js (which comes with npm)  installed on your computer.
